@@ -7,3 +7,6 @@
 [submodule "submodules/dearcss"]
 	path = submodules/dearcss
 	url = https://github.com/hvadhedderde/dearcss
+[submodule "submodules/wtf-css-merger"]
+	path = submodules/wtf-css-merger
+	url = https://github.com/hvadhedderde/wtf-css-merger.git
