@@ -1,0 +1,19 @@
+#navigation {text-align: right; display: none;}
+.ready #navigation {display: block;}
+
+#navigation ul {list-style: none; font-size: 0; overflow: hidden;}
+#navigation li {display: inline-block; padding: 6px 0 0 20px;}
+#navigation li a {line-height: 20px; font-size: 16px; display: block; padding: 5px 10px; border-radius: 3px;}
+#navigation li a:hover {text-decoration: none; background: #f5f5f5;}
+	
+.front .ready #navigation li.about a,
+.work .ready #navigation li.work a,
+.services .ready #navigation li.services a,
+.contact .ready #navigation li.contact a {background: #000000; color: #ffffff;}
+
+#navigation li.front {float: left; padding: 0;}
+#navigation li.front h3 {border-bottom: 4px solid #00f2c8; padding: 0 0 2px 0;}
+#navigation li.front a {line-height: 30px; font-size: 24px; text-transform: uppercase; text-decoration: none; padding: 0;
+	font-family: 'BrandonGrotesqueBlackRegular', Arial, Verdana, sans-serif;
+}
+#navigation li.front h3:hover a {background: transparent; color: #00f2c8;}

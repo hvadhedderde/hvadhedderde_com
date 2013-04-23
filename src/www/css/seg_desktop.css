@@ -1,0 +1,119 @@
+
+/*s-fonts.css*/
+@font-face {
+	font-family: 'PetronaRegular';
+	src: url('/css/fonts/petrona-regular-webfont.woff') format('woff'),
+		 url('/css/fonts/petrona-regular-webfont.ttf') format('truetype'),
+		 url('/css/fonts/petrona-regular-webfont.svg#PetronaRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'BrandonGrotesqueBlackRegular';
+	src: url('/css/fonts/brandon_blk-webfont.woff') format('woff'),
+		 url('/css/fonts/brandon_blk-webfont.ttf') format('truetype'),
+		 url('/css/fonts/brandon_blk-webfont.svg#BrandonGrotesqueBlackRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*s-page.css*/
+* {color: #000000; font-family: "PetronaRegular", Georgia, Times, serif; font-weight: normal;}
+html {height: 100%;}
+body {background: #ffffff; margin: 0; height: 100%;}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, address {padding: 0; margin: 0;}
+a {text-decoration: none; cursor: pointer;}
+a:hover {text-decoration: underline; color: #000000;}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0;}
+input, select, textarea {font-size: 17px;}
+input {outline: none;}
+#page {position: relative; width: 960px; margin: 0 auto; text-align: left; z-index: 1;}
+
+
+/*s-header.css*/
+#header {padding: 57px 0 135px; overflow: hidden; height: 36px; background: white;}
+#header .servicenavigation {display: none;}
+
+
+/*s-navigation.css*/
+#navigation {text-align: right; display: none;}
+.ready #navigation {display: block;}
+#navigation ul {list-style: none; font-size: 0; overflow: hidden;}
+#navigation li {display: inline-block; padding: 6px 0 0 20px;}
+#navigation li a {line-height: 20px; font-size: 16px; display: block; padding: 5px 10px; border-radius: 3px;}
+#navigation li a:hover {text-decoration: none; background: #f5f5f5;}
+.front .ready #navigation li.about a,
+.work .ready #navigation li.work a,
+.services .ready #navigation li.services a,
+.contact .ready #navigation li.contact a {background: #000000; color: #ffffff;}
+#navigation li.front {float: left; padding: 0;}
+#navigation li.front h3 {border-bottom: 4px solid #00f2c8; padding: 0 0 2px 0;}
+#navigation li.front a {line-height: 30px; font-size: 24px; text-transform: uppercase; text-decoration: none; padding: 0;
+	font-family: 'BrandonGrotesqueBlackRegular', Arial, Verdana, sans-serif;
+}
+#navigation li.front h3:hover a {background: transparent; color: #00f2c8;}
+
+/*s-content.css*/
+.c {overflow: hidden; clear: both;}
+.c300, .c225, .c200, .c150, .c100, .c75, .c50, .c25 {float: left; overflow: hidden; min-height: 10px;}
+.c300 {width: 960px;}
+.c225 {width: 720px;}
+.c200 {width: 640px;}
+.c150 {width: 480px;}
+.c100 {width: 320px;}
+.c75 {width: 240px;}
+.c50 {width: 160px;}
+.c25 {width: 80px;}
+#content {overflow: hidden; min-height: 300px;
+}
+#content .section {padding-bottom: 20px;}
+#content h1 {padding: 0 0 55px; font-size: 60px; line-height: 60px;}
+#content h2 {padding: 0 0 40px; font-size: 36px;}
+#content h3 {padding: 0 0 10px; font-size: 26px;}
+#content h4 {padding: 0;}
+#content p {padding: 0 0 27px; line-height: 23px;}
+#content ul.list {padding: 0 0 27px; list-style: none;}
+#content ul.list li {line-height: 23px;}
+#content dl {padding: 0 0 27px; overflow: hidden;}
+#content dt {float: left; clear: left; width: 150px; font-weight: bold; line-height: 23px;}
+#content dt:after {content: ":";}
+#content dd {float: left; clear: right; line-height: 23px;}
+#content a {border-bottom: 2px solid #00f2c8;}
+#content a:hover {text-decoration: none; color: #00f2c8;}
+#content .ornament {border-top: 4px solid #00f2c8; width: 50px; height: 20px;}
+.demos #content .demos li {padding-bottom: 20px;}
+.demos #content .demos .actions li {padding-bottom: 10px;}
+.demos #content .demos li h2 {padding-bottom: 10px;}
+.demos #content .demos li .info {}
+.demos #content .demos li .info p {padding-bottom: 5px;}
+.demos #content .demos li .info .invaliddevice {color: #fd0000;}
+
+
+/*s-footer.css*/
+#footer {text-align: left; padding: 10px 0 50px;}
+#footer .vcard {}
+#footer .vcard * {line-height: 24px;}
+#footer .vcard .ornament {border-top: 4px solid #00f2c8; width: 50px; height: 20px;}
+#footer .vcard .name {font-weight: bold;}
+#footer a {border-bottom: 2px solid #00f2c8;}
+#footer a:hover {text-decoration: none;}
+
+
+/*s-work.css*/
+
+
+/*s-contact.css*/
+.contact #content .vcard div {line-height: 23px;}
+.contact #content .company {padding: 0 0 50px;}
+.contact #content .person {padding: 0 0 40px;}
+.contact #content .org {display: none;}
+.contact #content .geo {padding: 0 0 25px;}
+.contact #content .company .adr {padding: 0 0 25px;}
+.contact #content .tel a {border: none;}
+
+/*s-help.css*/
+.help em {font-weight: bold;}
+
+/*s-content-desktop.css*/
+#content {display: block; opacity: 0;}

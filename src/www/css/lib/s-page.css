@@ -1,0 +1,17 @@
+* {color: #000000; font-family: "PetronaRegular", Georgia, Times, serif; font-weight: normal;}
+
+html {height: 100%;}
+body {background: #ffffff; margin: 0; height: 100%;}
+
+
+/* BASE */
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, address {padding: 0; margin: 0;}
+a {text-decoration: none; cursor: pointer;}
+a:hover {text-decoration: underline; color: #000000;}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0;}
+input, select, textarea {font-size: 17px;}
+input {outline: none;}
+
+
+#page {position: relative; width: 960px; margin: 0 auto; text-align: left; z-index: 1;}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://hvadhedderde.com/atom.xml</id>
+  <title>Hvadhedderde.com</title>
+  <updated>2012-05-27T00:00:02Z</updated>
+  <link rel="self" href="http://hvadhedderde.com/atom.xml" type="application/atom+xml" />
+
+  <author>
+    <name>Hvadhedderde</name>
+    <uri>http://hvadhedderde.com</uri>
+    <email>info@hvadhedderde.com</email>
+  </author>
+  
+  <entry>
+    <title>Atom feed</title>
+    <category term="Atom"/> 
+    <id>http://hvadhedderde.com/</id>
+    <published>2012-05-27T00:00:02Z</published>
+    <updated>2012-05-27T00:00:02Z</updated>
+    <link href="http://hvadhedderde.com"/>
+    <summary>At this time we do not provide a Atom feed. Please visit our site for more information.</summary>
+    <content>At this time we do not provide a Atom feed. Please visit our site for more information.</content>
+  </entry>
+
+</feed>

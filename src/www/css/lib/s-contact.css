@@ -1,0 +1,9 @@
+
+.contact #content .vcard div {line-height: 23px;}
+.contact #content .company {padding: 0 0 50px;}
+.contact #content .person {padding: 0 0 40px;}
+
+.contact #content .org {display: none;}
+.contact #content .geo {padding: 0 0 25px;}
+.contact #content .company .adr {padding: 0 0 25px;}
+.contact #content .tel a {border: none;}

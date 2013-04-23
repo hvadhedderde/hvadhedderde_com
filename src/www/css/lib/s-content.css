@@ -1,0 +1,46 @@
+/* BASIC CONTENT BLOCKS */
+.c {overflow: hidden; clear: both;}
+.c300, .c225, .c200, .c150, .c100, .c75, .c50, .c25 {float: left; overflow: hidden; min-height: 10px;}
+.c300 {width: 960px;}
+.c225 {width: 720px;}
+.c200 {width: 640px;}
+.c150 {width: 480px;}
+.c100 {width: 320px;}
+.c75 {width: 240px;}
+.c50 {width: 160px;}
+.c25 {width: 80px;}
+
+
+#content {overflow: hidden; min-height: 300px;
+	/*display: none;*/
+}
+/*.ready #content {display: block;}*/
+#content .section {padding-bottom: 20px;}
+
+
+#content h1 {padding: 0 0 55px; font-size: 60px; line-height: 60px;}
+#content h2 {padding: 0 0 40px; font-size: 36px;}
+#content h3 {padding: 0 0 10px; font-size: 26px;}
+#content h4 {padding: 0;}
+#content p {padding: 0 0 27px; line-height: 23px;}
+
+#content ul.list {padding: 0 0 27px; list-style: none;}
+#content ul.list li {line-height: 23px;}
+
+#content dl {padding: 0 0 27px; overflow: hidden;}
+#content dt {float: left; clear: left; width: 150px; font-weight: bold; line-height: 23px;}
+#content dt:after {content: ":";}
+#content dd {float: left; clear: right; line-height: 23px;}
+
+#content a {border-bottom: 2px solid #00f2c8;}
+#content a:hover {text-decoration: none; color: #00f2c8;}
+
+#content .ornament {border-top: 4px solid #00f2c8; width: 50px; height: 20px;}
+
+
+.demos #content .demos li {padding-bottom: 20px;}
+.demos #content .demos .actions li {padding-bottom: 10px;}
+.demos #content .demos li h2 {padding-bottom: 10px;}
+.demos #content .demos li .info {}
+.demos #content .demos li .info p {padding-bottom: 5px;}
+.demos #content .demos li .info .invaliddevice {color: #fd0000;}

@@ -1,0 +1,8 @@
+#footer {text-align: left; padding: 10px 0 50px;}
+#footer .vcard {}
+#footer .vcard * {line-height: 24px;}
+#footer .vcard .ornament {border-top: 4px solid #00f2c8; width: 50px; height: 20px;}
+#footer .vcard .name {font-weight: bold;}
+
+#footer a {border-bottom: 2px solid #00f2c8;}
+#footer a:hover {text-decoration: none;}

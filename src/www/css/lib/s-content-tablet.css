@@ -1,0 +1,10 @@
+
+#navigation li {
+	-webkit-user-select: none;
+}
+#navigation li a {
+	-webkit-transform: translate3d(0,0,0);
+}
+#content {
+	-webkit-transform: translate3d(0,0,0);
+}
