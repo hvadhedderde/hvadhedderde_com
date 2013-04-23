@@ -4,3 +4,6 @@
 [submodule "submodules/jes"]
 	path = submodules/jes
 	url = https://github.com/hvadhedderde/jes
+[submodule "submodules/dearcss"]
+	path = submodules/dearcss
+	url = https://github.com/hvadhedderde/dearcss
