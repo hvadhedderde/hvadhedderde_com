@@ -11,8 +11,13 @@
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-	<link type="text/css" rel="stylesheet" media="all" href="/css/seg_<?= $_SESSION["segment"] ?>.css" />
-	<script type="text/javascript" src="/js/seg_<?= $_SESSION["segment"] ?>.js"></script>
+	<? if($_SESSION["dev"]) { ?>
+		<link type="text/css" rel="stylesheet" media="all" href="/css/lib/seg_<?= $_SESSION["segment"] ?>_include.css" />
+		<script type="text/javascript" src="/js/lib/seg_<?= $_SESSION["segment"] ?>_include.js"></script>
+	<? } else { ?>
+		<link type="text/css" rel="stylesheet" media="all" href="/css/seg_<?= $_SESSION["segment"] ?>.css" />
+		<script type="text/javascript" src="/js/seg_<?= $_SESSION["segment"] ?>.js"></script>
+	<? } ?>
 	<link rel="alternate" type="application/atom+xml" href="http://hvadhedderde.com/atom.xml" title="Hvadhedderde.com" />
 </head>
 
