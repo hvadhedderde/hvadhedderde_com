@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- (c) & (p) hvadhedderde.com 2009-2011 //-->
-	<!-- All material protected by copyrightlaws, as if you didnt know //-->
+	<!-- (c) & (p) hvadhedderde.com 2009-2013 -->
+	<!-- Common Public Attribution License Version 1.0 (CPAL-1.0), http://hvadhedderde.com/license -->
 	<title><?= $page_title ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="keywords" content="HTML5 CSS3 JavaScript custom web development programming shop website accessibility usability rails php mysql" />
+	<meta name="keywords" content="HTML5 CSS3 JavaScript custom web development programming shop website mobile accessibility usability php mysql" />
 	<meta name="description" content="<?= $page_description ?>" />
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
