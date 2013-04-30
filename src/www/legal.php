@@ -5,6 +5,10 @@
 
 <div class="scene i:scene">
 
+	// should be terms/conditions/license/cookies/privacy combined page
+
+
+
 	// insert license here
 	
 </div>

@@ -1,5 +1,5 @@
 /*
-Hvadhedderde.com - Copyright 2013 http://hvadhedderde.com/license
+Hvadhedderde.com - Copyright 2013 http://hvadhedderde.com/legal
 
 wtf-js-merged @ 2013-04-24 12:16:44
 */

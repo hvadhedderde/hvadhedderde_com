@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<!-- (c) & (p) hvadhedderde.com 2009-2013 -->
-	<!-- Common Public Attribution License Version 1.0 (CPAL-1.0), http://hvadhedderde.com/license -->
+	<!-- Common Public Attribution License Version 1.0 (CPAL-1.0), http://hvadhedderde.com/legal -->
 	<title><?= $page_title ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="keywords" content="HTML5 CSS3 JavaScript custom web development programming shop website mobile accessibility usability php mysql" />
