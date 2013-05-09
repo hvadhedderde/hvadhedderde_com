@@ -1,7 +1,7 @@
 <?php $body_class = "demos" ?>
 <?php $page_description = "Demos" ?>
 <?php $page_title = "Demos" ?>
-<?php include_once("../../php/shell.header.php") ?>
+<?php include_once($_SERVER["LOCAL_PATH"]."/templates/shell.header.php") ?>
 
 <div class="scene i:scene">
 
@@ -31,11 +31,12 @@
 							}
 						?>
 						<p>
-							Interactive and responsive banners for the launch of Windows 8. The banners autoplay on focus. They reset on
-							browser-resize providing different versions for mobile, tablet and desktop browsers. Resize your browser to
-							see all versions. Static versions for IE8 and IE7.
+							Interactive and responsive HTML5 banners for the launch of Windows 8. The banners autoplay when they enter the viewable section of the page.
+							The banners stop when out of view, and reset on browser-resizing, providing smooth transitions between the different responsive states.
+							Animated and interactive versions for smartphones, tablet and desktop browsers. Resize your browser to see all versions. Static fallback versions for IE8 and IE7.
 						</p>
-						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript and WTF6</p>
+						<p>Super-optimized preloading, ensuring a minimal initial load, no overhead across devices and smooth playback.</p>
+						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.6 and WTF6</p>
 					</div>
 
 				</li>
@@ -58,7 +59,7 @@
 						?>
 						<p>Online dress-up game in HTML5. Support for IE7, IE8, IE9, Chrome, Firefox, Safari and iPad.</p>
 						<p>
-							Produced in 2012. Built using HTML5, CSS3, JavaScript and WTF5.
+							Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.5 and WTF5.
 						</p>
 					</div>
 				</li>
@@ -84,7 +85,7 @@
 						?>
 						<p>Non flash version of Fri for mobberi, primarily for the iPad where the Flash version cannot run.</p>
 						<p>
-							Produced in 2011. Built using HTML5, CSS3, JavaScript and WTF3.
+							Produced in 2011. Built using HTML5, CSS3, JavaScript, JES-0.3 and WTF3.
 						</p>
 					</div>
 				</li>
@@ -117,7 +118,7 @@
 							homescreen on iPad for best experience.
 						</p>
 						<p>
-							Produced in 2011. Built using HTML5, CSS3, JavaScript and WTF4.
+							Produced in 2011. Built using HTML5, CSS3, JavaScript JES-0.4 and WTF4.
 						</p>
 					</div>
 				</li>
@@ -150,7 +151,7 @@
 							homescreen on iPad for best experience.
 						</p>
 						<p>
-							Produced in 2011. Built using HTML5, CSS3, JavaScript and WTF4.
+							Produced in 2011. Built using HTML5, CSS3, JavaScript JES-04 and WTF4.
 						</p>
 					</div>
 				</li>
@@ -183,7 +184,7 @@
 							nature.
 						</p>
 						<p>
-							Produced in 2010. Built using HTML5, CSS3, JavaScript and WTF4.
+							Produced in 2010. Built using HTML5, CSS3, JavaScript, JES-0.4 and WTF4.
 						</p>
 					</div>
 				</li>
@@ -216,7 +217,7 @@
 							nature.
 						</p>
 						<p>
-							Produced in 2010, shortly after the first iPad was released. New ground broken, new lessons learnt. Built using HTML5, CSS3, JavaScript and WTF4.
+							Produced in 2010, shortly after the first iPad was released. New ground broken, new lessons learnt. Built using HTML5, CSS3, JavaScript, JES-0.4 and WTF4.
 						</p>
 					</div>
 				</li>
@@ -226,4 +227,4 @@
 
 </div>
 
-<?php include_once("../../php/shell.footer.php") ?>
+<?php include_once($_SERVER["LOCAL_PATH"]."/templates/shell.footer.php") ?>
