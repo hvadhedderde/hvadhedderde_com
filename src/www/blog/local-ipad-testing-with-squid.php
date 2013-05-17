@@ -38,7 +38,7 @@
 		<p>In terminal, type:</p>
 		<code>$ sudo port install squid</code>
 		<p>Add permissions to cache storage</p>
-		<code>$ sudo chmod -R 755 /opt/local/var/squid</code>
+		<code>$ sudo chmod -R 777 /opt/local/var/squid</code>
 
 		<h2>Update Squid configuration</h2>
 		
