@@ -18,6 +18,14 @@
 		<link type="text/css" rel="stylesheet" media="all" href="/css/seg_<?= $_SESSION["segment"] ?>.css" />
 		<script type="text/javascript" src="/js/seg_<?= $_SESSION["segment"] ?>.js"></script>
 	<? } ?>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=233720426672242";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<link rel="alternate" type="application/atom+xml" href="http://hvadhedderde.com/atom.xml" title="Hvadhedderde.com" />
 </head>
 
@@ -26,6 +34,7 @@
 <div id="page" class="i:page">
 
 	<div id="header">
+		<div class="fb-like" data-href="http://hvadhedderde.com" data-send="false" data-width="450" data-show-faces="false" data-font="trebuchet ms"></div>
 		<ul class="servicenavigation">
 			<li class="keynav navigation access"><a href="#navigation" rel="nofollow">Menu</a></li>
 			<li class="keynav help access"><a href="/help" rel="nofollow">Help</a></li>
