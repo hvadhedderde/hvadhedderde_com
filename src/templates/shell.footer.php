@@ -3,8 +3,7 @@
 	<div id="navigation">
 		<ul>
 			<li class="front"><h3><a href="/">hvad hedder de &trade;</a></h3></li>
-			<li class="about"><h3><a href="/">About us</a></h3></li>
-			<li class="work"><h3><a href="/work">Our work</a></h3></li>
+			<li class="about"><h3><a href="/">About</a></h3></li>
 			<li class="blog"><h3><a href="/blog">Blog</a></h3></li>
 			<li class="contact"><h3><a href="/contact">Contact</a></h3></li>
 		</ul>
