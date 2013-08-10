@@ -1,7 +1,7 @@
 /*
 Hvadhedderde.com - Copyright 2013 http://hvadhedderde.com/legal
 
-wtf-js-merged @ 2013-04-24 12:16:44
+wtf-js-merged @ 2013-08-10 04:16:19
 */
 
 /*seg_mobile_touch.js*/
