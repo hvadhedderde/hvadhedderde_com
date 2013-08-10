@@ -8,6 +8,7 @@
 	<div class="c">
 		<div class="c300">
 			<h1>Contact us</h1>
+			<p>Do not hesitate to contact us if you have any questions or want to see a selection of our work.</p>
 		</div>
 
 		<div class="c300 section">
@@ -20,6 +21,7 @@
 						<div class="city"><span class="postal-code" itemprop="postalCode">2680</span> <span class="locality" itemprop="addressLocality">Solrød Strand</span></div>
 						<div class="country-name" itemprop="addressCountry">Denmark</div>
 					</div>
+					<h2>Email</h2>
 					<div class="email" itemprop="email"><a href="mailto:info@hvadhedderde.com">info@hvadhedderde.com</a></div>
 				</div>
 			</div>

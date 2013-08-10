@@ -14,10 +14,78 @@
 
 			<ul class="demos">
 				<li>
+					<h2>HTML5 App</h2>
+					<ul class="actions">
+						<li><a href="http://html5-app.hvadhedderde.com" target="_blank" class="hardlink">http://html5-app.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "desktop_ie" ||
+								$_SESSION["segment"] == "desktop_light" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>HTML5 WebApp demo made primarily to demonstrate animation performance and Native appearance.</p>
+						<p>Produced in 2013. Built using HTML5, CSS3, JavaScript, JES-0.7 and WTF6.</p>
+					</div>
+
+				</li>
+				<li>
+					<h2>Hemocue WebApp</h2>
+					<ul class="actions">
+						<li><a href="http://hemocue.hvadhedderde.com" target="_blank" class="hardlink">http://hemocue.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "desktop_ie" ||
+								$_SESSION["segment"] == "desktop_light" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Tablet WebApp demo for Sales Guide tool with offline support.</p>
+						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.7 and WTF6.</p>
+					</div>
+
+				</li>
+				<li>
+					<h2>Pitch for Vero Moda eMag</h2>
+					<ul class="actions">
+						<li><a href="http://vm-mag.hvadhedderde.com" target="_blank" class="hardlink">http://vm-mag.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "desktop_ie" ||
+								$_SESSION["segment"] == "desktop_light" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Small WebApp e-magazine demo to demonstate possible interaction.</p>
+						<p>Produced in 2013. Built using HTML5, CSS3, JavaScript, JES-0.7 and WTF6.</p>
+					</div>
+
+				</li>
+				<li>
 					<h2>Microsoft, Windows 8 - responsive HTML5 banners</h2>
 					<ul class="actions">
-						<li><a href="http://wund-win8-a.hvadhedderde.com" target="_blank" class="hardlink">http://wund-win8-a.hvadhedderde.com</a></li>
-						<li><a href="http://wund-win8-b.hvadhedderde.com" target="_blank" class="hardlink">http://wund-win8-b.hvadhedderde.com</a></li>
+						<li><a href="http://win8.hvadhedderde.com" target="_blank" class="hardlink">http://win8.hvadhedderde.com</a></li>
 					</ul>
 
 					<div class="info">
@@ -36,7 +104,72 @@
 							Animated and interactive versions for smartphones, tablet and desktop browsers. Resize your browser to see all versions. Static fallback versions for IE8 and IE7.
 						</p>
 						<p>Super-optimized preloading, ensuring a minimal initial load, no overhead across devices and smooth playback.</p>
-						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.6 and WTF6</p>
+						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.6 and WTF6.</p>
+					</div>
+
+				</li>
+				<li>
+					<h2>Whil.com - Demo website</h2>
+					<ul class="actions">
+						<li><a href="http://whil.hvadhedderde.com" target="_blank" class="hardlink">http://whil.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>HTML templates.</p>
+						<p>Produced in 2012. Built using HTML5, CSS3, jQuery.</p>
+					</div>
+
+				</li>
+				<li>
+					<h2>Novo mobile</h2>
+					<ul class="actions">
+						<li><a href="http://novo-mobile.hvadhedderde.com" target="_blank" class="hardlink">http://novo-mobile.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "dekstop_ie" ||
+								$_SESSION["segment"] == "desktop_light" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Frontend HTML templates for Novo mobile website.</p>
+						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.5.</p>
+					</div>
+
+				</li>
+				<li>
+					<h2>Vestas online - Frontend HTML templates and JavaScript framework</h2>
+					<ul class="actions">
+						<li><a href="http://vestas.hvadhedderde.com" target="_blank" class="hardlink">http://vestas.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Frontend HTML templates and extensive JavaScript framework.</p>
+						<p>Produced in 2011. Built using HTML5, CSS3, JavaScript, JES-0.5.</p>
 					</div>
 
 				</li>
@@ -88,6 +221,52 @@
 							Produced in 2011. Built using HTML5, CSS3, JavaScript, JES-0.3 and WTF3.
 						</p>
 					</div>
+				</li>
+				<li>
+					<h2>MCreative Group - website</h2>
+					<ul class="actions">
+						<li><a href="http://mcreativegroup.hvadhedderde.com" target="_blank" class="hardlink">http://mcreativegroup.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Website</p>
+						<p>
+							Produced in 2011. Built using HTML5, CSS3, JavaScript, JES-0.5 and WTF3.
+						</p>
+					</div>
+
+				</li>
+				<li>
+					<h2>Coatpeople - website</h2>
+					<ul class="actions">
+						<li><a href="http://coatpeople.hvadhedderde.com" target="_blank" class="hardlink">http://coatpeople.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Website</p>
+						<p>
+							Produced in 2011. Built using HTML5, CSS3, JavaScript, JES-0.5 and WTF3.
+						</p>
+					</div>
+
 				</li>
 				<li>
 					<h2>Amgen, Aranesp - product presentation for iPad</h2>
@@ -220,6 +399,29 @@
 							Produced in 2010, shortly after the first iPad was released. New ground broken, new lessons learnt. Built using HTML5, CSS3, JavaScript, JES-0.4 and WTF4.
 						</p>
 					</div>
+				</li>
+				<li>
+					<h2>Nomeco - Warehouse packing status monitor</h2>
+					<ul class="actions">
+						<li><a href="http://nomeco.hvadhedderde.com" target="_blank" class="hardlink">http://nomeco.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Warehouse packing status monitor slideshow.</p>
+						<p>
+							Produced in 2010. Built using HTML5, CSS3, JavaScript, JES-0.3.
+						</p>
+					</div>
+
 				</li>
 			</ul>
 		</div>
