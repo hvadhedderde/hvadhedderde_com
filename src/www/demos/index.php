@@ -83,6 +83,90 @@
 
 				</li>
 				<li>
+					<h2>wdp.dk - Wibroe, Duckert & Partners website</h2>
+					<ul class="actions">
+						<li><a href="http://wdp.hvadhedderde.com" target="_blank" class="hardlink">http://wdp.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Small temporary website</p>
+						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.7 and WTF6.</p>
+					</div>
+
+				</li>
+				<li>
+					<h2>tuborg.dk</h2>
+					<ul class="actions">
+						<li><a href="http://tuborg.hvadhedderde.com" target="_blank" class="hardlink">http://tuborg.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Corporate website with heavy use of animations.</p>
+						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.5 and WTF5.</p>
+					</div>
+
+				</li>
+				<li>
+					<h2>peoplegroup.dk</h2>
+					<ul class="actions">
+						<li><a href="http://peoplegroup.hvadhedderde.com" target="_blank" class="hardlink">http://peoplegroup.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Corporate website.</p>
+						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.5 and WTF5.</p>
+					</div>
+
+				</li>
+				<li>
+					<h2>netpeople.dk</h2>
+					<ul class="actions">
+						<li><a href="http://netpeople.hvadhedderde.com" target="_blank" class="hardlink">http://netpeople.hvadhedderde.com</a></li>
+					</ul>
+
+					<div class="info">
+						<?php
+							if(
+								$_SESSION["segment"] == "basic" ||
+								$_SESSION["segment"] == "mobile" ||
+								$_SESSION["segment"] == "mobile_light"
+							) {
+								print '<p class="invaliddevice">Your current browser cannot show this demo.</p>';
+							}
+						?>
+						<p>Website.</p>
+						<p>Produced in 2012. Built using HTML5, CSS3, JavaScript, JES-0.5 and WTF5.</p>
+					</div>
+
+				</li>
+				<li>
 					<h2>Microsoft, Windows 8 - responsive HTML5 banners</h2>
 					<ul class="actions">
 						<li><a href="http://win8.hvadhedderde.com" target="_blank" class="hardlink">http://win8.hvadhedderde.com</a></li>
